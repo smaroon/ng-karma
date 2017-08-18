@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+  <head>
+    <!-- inject-vendor:css -->
+    <link rel="stylesheet" href="static/css/vendor/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="static/css/vendor/font-awesome.css"/>
+
+    <!-- inject: css -->
+    <link rel="stylesheet" href="static/css/style.css"/>
+
+    <!-- inject-vendor:js -->
+    <script src="static/lib/angular/angular.js"></script>
+    <!--<script src="static/lib/angular/angular.min.js"></script>-->
+    <script src="static/lib/angular-bootstrap/ui-bootstrap.js"></script>
+    <script src="static/lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+    <script src="static/js/script.js"></script>
+    <script src="static/js/userData.js"></script>
+  </head>
+
+  <body ng-controller="mainCtrl" class="container" style="padding-top:30px">
+    <div ng-repeat="user in users">
+      <user-info-card user="user" collapsed="false"></user-info-card>
+      
+    </div>
+    
+  </body>
+
+</html>

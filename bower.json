@@ -1,0 +1,19 @@
+{
+  "name": "starwarsfriends",
+  "authors": [
+    "Smaroon"
+  ],
+  "description": "simple ng app to test some karma",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.5.6",
+    "angular-bootstrap": "~2.3.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.5.6"
+  },
+  "resolutions": {
+    "angular": "1.5.6"
+  }
+}
